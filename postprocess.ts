@@ -4,7 +4,7 @@ import { xlsx, readXLSX, writeCSV } from "https://deno.land/x/flat@0.0.11/mod.ts
 
 // Get the downloaded_filename as the first argument
 const inputFilename = Deno.args[0];
-const outputFilename = inputFilename.replace(".xlsx", ".csv");
+const outputFilename = inputFilename.replace(".xls", ".csv");
 
 // read about what the xlsx library can do here: https://github.com/SheetJS/sheetjs
 
