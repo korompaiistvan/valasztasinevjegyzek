@@ -25,5 +25,5 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://www.valasztas.hu/documents/20182/205178/K%C3%B6zponti+n%C3%A9vjegyz%C3%A9kben+szerepl%C5%91+v%C3%A1laszt%C3%B3polg%C3%A1rok+sz%C3%A1ma+orsz%C3%A1ggy%C5%B1l%C3%A9si+egy%C3%A9ni+v%C3%A1laszt%C3%B3ker%C3%BClet+%C3%A9s+telep%C3%BCl%C3%A9s+szerinti+bont%C3%A1sban # The data to fetch every 5 minutes
-          downloaded_filename: valasztasi_nevjegyzek.xls
+          downloaded_filename: adat/valasztasi_nevjegyzek.xls
           postprocess: ./postprocess.ts
